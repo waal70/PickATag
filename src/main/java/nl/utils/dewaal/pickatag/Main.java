@@ -20,9 +20,6 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//TODO: opschonen en resourcebundel gebruiken
-		//TODO: configure log4j
-		//log.info("setting log4j");
 		initLog4J();
 		log.info("in de ge-edite versie");
 		log.debug(System.getProperty("user.home"));

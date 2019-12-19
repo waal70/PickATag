@@ -126,7 +126,6 @@ public class PickATagData {
 			log.debug(result);
 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			log.error(e.getLocalizedMessage());
 		} 
 		return result;
@@ -149,7 +148,6 @@ public class PickATagData {
 				log.debug("Recordcount (newly counted): " + i);
 				this.set_recordCount(i);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				log.error(e.getLocalizedMessage());
 			}
 			disconnectDB();
