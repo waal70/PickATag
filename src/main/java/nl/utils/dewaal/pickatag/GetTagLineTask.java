@@ -4,8 +4,8 @@ import java.util.TimerTask;
 
 import nl.utils.dewaal.pickatag.ui.frmPickATagController;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class GetTagLineTask extends TimerTask {
     

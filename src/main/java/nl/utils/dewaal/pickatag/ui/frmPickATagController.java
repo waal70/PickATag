@@ -13,8 +13,8 @@ import javax.swing.JFrame;
 import nl.utils.dewaal.pickatag.GetTagLineTask;
 import nl.utils.dewaal.pickatag.PickATagData;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 /**This is the main controller class for the frmPAT. This class implements the methods that are called from the form, and also handles the database and file handlers.

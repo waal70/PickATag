@@ -1,7 +1,7 @@
 package nl.utils.dewaal.pickatag;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SignatureFileHandler {
 private static final Logger log = LogManager.getLogger(SignatureFileHandler.class);
